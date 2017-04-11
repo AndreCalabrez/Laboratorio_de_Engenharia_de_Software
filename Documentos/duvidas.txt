@@ -1,6 +1,0 @@
-
-1 -(Cronograma) Horas extra -  não sei onde estão as atividades das horas normais? - Horarios das reuniões
-
-2 - Caso de Uso - Fluxo alternativo e Regras de Negocio
-
-3 - Caso de Uso - Pos COndição - proximo caso de uso??
