@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 15-Abr-2017 às 19:47
+-- Generation Time: 26-Abr-2017 às 00:10
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -52,12 +52,12 @@ CREATE TABLE `cidade` (
 
 CREATE TABLE `cliente` (
   `cod_cliente` int(11) NOT NULL,
-  `nome` varchar(150) DEFAULT NULL,
-  `rua` varchar(200) DEFAULT NULL,
+  `nome` varchar(150) NOT NULL,
+  `rua` varchar(200) NOT NULL,
   `numero` varchar(10) DEFAULT NULL,
-  `telefone` varchar(15) DEFAULT NULL,
-  `tipo` varchar(25) DEFAULT NULL,
-  `cpf_cnpj` varchar(20) DEFAULT NULL,
+  `telefone` varchar(15) NOT NULL,
+  `tipo` varchar(25) NOT NULL,
+  `cpf_cnpj` varchar(20) NOT NULL,
   `inscricao_estadual` varchar(15) DEFAULT NULL,
   `cod_bairro` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -119,16 +119,26 @@ CREATE TABLE `pedidodecorte` (
   `COD_PEDIDO` int(11) NOT NULL,
   `cod_cliente` int(11) DEFAULT NULL,
   `cod_funcionario` int(11) DEFAULT NULL,
-  `cod_produto` int(11) DEFAULT NULL,
   `cod_disco` int(11) DEFAULT NULL,
-  `cod_itens` int(11) DEFAULT NULL,
-  `LARGURA` decimal(4,2) DEFAULT NULL,
-  `ALTURA` decimal(4,2) DEFAULT NULL,
-  `Qtd_chapas` int(11) DEFAULT NULL,
   `qtd_perda_P` decimal(6,3) DEFAULT NULL,
-  `qtd_perda_m` decimal(6,3) DEFAULT NULL,
-  `data_hora_corte` date DEFAULT NULL,
-  `situacao` varchar(20) DEFAULT NULL
+  `qtd_perda_M` decimal(6,0) DEFAULT NULL,
+  `situacao` varchar(20) DEFAULT NULL,
+  `resultado` varchar(200) DEFAULT NULL,
+  `alterado` tinyint(1) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `pedidoproduto`
+--
+
+CREATE TABLE `pedidoproduto` (
+  `cod_pedido` int(11) NOT NULL,
+  `cod_produto` int(11) NOT NULL,
+  `largura` decimal(4,3) DEFAULT NULL,
+  `altura` decimal(4,3) DEFAULT NULL,
+  `qtdChapa` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -206,9 +216,14 @@ ALTER TABLE `pedidodecorte`
   ADD PRIMARY KEY (`COD_PEDIDO`),
   ADD KEY `FK_PRDIDODECORTE_CLIENTE` (`cod_cliente`),
   ADD KEY `FK_PRDIDODECORTE_FUNCIONARIO` (`cod_funcionario`),
-  ADD KEY `FK_PRDIDODECORTE_PRODUTO` (`cod_produto`),
-  ADD KEY `FK_PRDIDODECORTE_DISCO` (`cod_disco`),
-  ADD KEY `FK_PRDIDODECORTE_ITENS` (`cod_itens`);
+  ADD KEY `FK_PRDIDODECORTE_DISCO` (`cod_disco`);
+
+--
+-- Indexes for table `pedidoproduto`
+--
+ALTER TABLE `pedidoproduto`
+  ADD PRIMARY KEY (`cod_pedido`,`cod_produto`),
+  ADD KEY `FK_PEDIDOPRODUTO_PRODUTO` (`cod_produto`);
 
 --
 -- Indexes for table `produto`
