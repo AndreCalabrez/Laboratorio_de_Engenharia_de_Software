@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 26-Abr-2017 às 00:10
+-- Generation Time: 27-Abr-2017 às 00:23
 -- Versão do servidor: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -161,8 +161,8 @@ CREATE TABLE `produto` (
 --
 
 CREATE TABLE `uf` (
-  `cod` int(11) NOT NULL,
-  `uf` varchar(70) NOT NULL
+  `sigla_uf` varchar(2) NOT NULL,
+  `estao` varchar(15) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -235,7 +235,7 @@ ALTER TABLE `produto`
 -- Indexes for table `uf`
 --
 ALTER TABLE `uf`
-  ADD PRIMARY KEY (`cod`);
+  ADD PRIMARY KEY (`sigla_uf`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
