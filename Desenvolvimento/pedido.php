@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -53,15 +53,15 @@
                     <li class="active" >
                         <div>
                             <label>Cliente: <?php echo $cliente?> </label><br />
-                            <label>Chapa: <?php echo $produto?></label><br />
+                            <label>Produto: <?php echo $produto?></label><br />
                             <label>Quantidade: <?php echo $qtdChapas?></label><br />
                             <label>Disco: <?php echo $disco?></label><br />
                         </div>
                     </li>
-                    <li class="active">  <div><label>Nome da Peça :<input type="text" name="nomePeca"/></label></div>
-                        <div><label>Largura da Peça :<input type="text" name="largPeca"/></label></div>
-                        <div><label>Altura da Peça :<input type="text" name="altPeca"/></label></div>
-                        <div><label>Quantidade de Peças :<input type="text" name="qtdPeca"/></label></div>
+                    <li class="active">  <div><label>Nome da Peça :<input type="text" name="nomePeca" required/></label></div>
+                        <div><label>Largura da Peça :<input type="number" name="largPeca"step="0.01"/></label></div>
+                        <div><label>Altura da Peça :<input type="number" name="altPeca" step="0.01"/></label></div>
+                        <div><label>Quantidade de Peças :<input type="number" name="qtdPeca" step="1"/></label></div>
 
                         <input type="button" value="Adicionar" onclick="inserirLinhaTabelaItens(nomePeca.value, largPeca.value, altPeca.value, qtdPeca.value,
                 tabelaItens.id)"/>

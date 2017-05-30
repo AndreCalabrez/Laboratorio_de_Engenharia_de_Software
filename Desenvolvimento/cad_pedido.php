@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <script type="text/javascript" src="dist/js/Tabela.js"></script>
+    <script type="text/javascript" src="dist/js/Tabela.js"></script
+    <link href="dist/css/estilo.css" rel="stylesheet">
+
 
 
 </head>
@@ -48,17 +50,45 @@ $query = mysqli_query($link,"SELECT cod_disco, modelo, marca
     <!-- Jumbotron -->
     <div class="jumbotron">
         <form action="pedido.php" method="post" class="formulario">
-            <label>Cliente <input type="text" name="cliente"/></label>  <input type="button" value="Buscar Cliente"><br/>
-            <label>Produto <input type="text" name = "produto"/></label>  <input type="button" value="Buscar Produto"></br>
-            <label> Disco </label> <select name="disco">
-                <?php while($prod = mysqli_fetch_array($query)) { ?>
-                    <option value="<?php echo $prod['modelo']?> - <?php echo $prod['marca']?>"><?php echo $prod['modelo']?> - <?php echo $prod['marca']?> </option>
-                <?php } ?>
-            </select><br/>
-            <label>Largura <input type="text" name = "larg"/></label>
-            <label>Altura <input type="text" name="altura"/></label>
-            <label>Quantidade <input type="text" name="qtd"/></label>
-            <input type="button" value="Adicionar" onclick="inserirLinhaTabelaChapas(larg.value, altura.value, qtd.value, contador.value,minhaTabela.id)">
+            <table >
+                <tr>
+                    <td class="tabelaCadastro"><label>Codigo: </label></td>
+                    <td class="tabelaCadastro"><label></label></td>
+                </tr>
+                <tr>
+                    <td class="tabelaCadastro"><label>Cliente:</label></td>
+                    <td class="tabelaCadastro"><input type="text" name="cliente" required/></td>
+                    <td class="tabelaCadastro"><input type="button" value="Buscar Cliente"/></td>
+                </tr>
+                <tr>
+                    <td class="tabelaCadastro"><label>Produto: </label></td>
+                    <td class="tabelaCadastro"><input type="text" name = "produto" required/></td>
+                    <td class="tabelaCadastro"><input type="button" value="Buscar Produto"/></td>
+
+                </tr>
+                <tr>
+                    <td class="tabelaCadastro"><label> Disco: </label></td>
+                    <td class="tabelaCadastro"><select name="disco">
+                            <?php while($prod = mysqli_fetch_array($query)) { ?>
+                                <option value="<?php echo $prod['modelo']?> - <?php echo $prod['marca']?>"><?php echo $prod['modelo']?> - <?php echo $prod['marca']?> </option>
+                            <?php } ?>
+                        </select></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="tabelaCadastro"><label>Largura: </label></td>
+                    <td class="tabelaCadastro"><input type="number" name = "larg" step="0.01"/></td>
+                    <td class="tabelaCadastro"><label>Altura:</label></td>
+                    <td class="tabelaCadastro"><input type="number" name="altura" step="0.01" /></td>
+                    <td class="tabelaCadastro"><label>Quantidade: </label></td>
+                    <td class="tabelaCadastro"><input type="number" name="qtd" step="1"/></td>
+                </tr>
+                <tr>
+                    <td ><input type="button" value="Adicionar" onclick="inserirLinhaTabelaChapas(larg.value, altura.value, qtd.value, contador.value,minhaTabela.id)"></td>
+                </tr>
+            </table>
+
+
             <table id="minhaTabela" border="1">
                 <tr>
                     <th>QUANTIDADE</th>
@@ -90,4 +120,5 @@ $query = mysqli_query($link,"SELECT cod_disco, modelo, marca
 
 </body>
 </html>
+
 

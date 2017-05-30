@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,10 +39,16 @@ $largura = $_POST['largPeca'];
 $altura = $_POST['altPeca'];
 $qtd = $_POST['qtdPeca'];
 
-$altChapa = 2;
+$altChapa = 1;
 $largChapa = 2;
 $altura_tema = 144;
 $largura_tema = 173;
+
+
+
+$larguratotaldachapa = (600/*total px do local da chapa*/*$largura)/$largChapa;
+$alturatotaldachapa = (300/*total px do local da chapa*/*$altura)/$altChapa;
+
 ?>
 
 
@@ -64,16 +70,16 @@ $largura_tema = 173;
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <div class="chapa"   style=" width: 600px; height: 300px;" />
-        <div class="obj1" style="width: <?php echo ($largura/$largChapa); ?>px; height:<?php echo ($altura/$altChapa); ?>px; top: <?php echo($altura_tema);?>px;">
+        <div class="chapa"   style=" width: 600px; height: 300px;"/>
+        <div class="obj1" style="width: <?php echo $larguratotaldachapa; ?>px; height:<?php echo $alturatotaldachapa; ?>px; top: <?php echo($altura_tema);?>px;">
         </div>
-        <div class="obj1" style="width: <?php echo ($largura/$largChapa); ?>px; height:<?php echo ($altura/$altChapa); ?>px; left: <?php echo(($largura/$largChapa)+$largura_tema+1);?>px;">
+        <div class="obj1" style="width: <?php echo $larguratotaldachapa; ?>px; height:<?php echo $alturatotaldachapa; ?>px; left: <?php echo($larguratotaldachapa+$largura_tema+1);?>px;">
         </div>
-        <div class="obj1" style="width: <?php echo ($largura/$largChapa); ?>px; height:<?php echo ($altura/$altChapa); ?>px; left: <?php echo(($largura/$largChapa)+($largura/$largChapa)+$largura_tema+2);?>px;">
+        <div class="obj1" style="width: <?php echo $larguratotaldachapa; ?>px; height:<?php echo $alturatotaldachapa; ?>px; left: <?php echo($larguratotaldachapa+$larguratotaldachapa+$largura_tema+2);?>px;">
         </div>
-        <div class="obj1" style="width: <?php echo (($largura/$largChapa)/2); ?>px; height:<?php echo (($altura/$altChapa)/3); ?>px; left: <?php echo(($largura/$largChapa)+(($largura/$largChapa)+($largura/$largChapa)+$largura_tema+3));?>px;">
+        <!--<div class="obj1" style="width: <?php echo (($largura/$largChapa)/2); ?>px; height:<?php echo (($altura/$altChapa)/3); ?>px; left: <?php echo(($largura/$largChapa)+(($largura/$largChapa)+($largura/$largChapa)+$largura_tema+3));?>px;">
         </div>
-
+-->
 </div>
     <input type="button" value="Salvar"/>
 </div>

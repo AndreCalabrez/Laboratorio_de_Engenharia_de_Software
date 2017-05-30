@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,44 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="dist/js/jquery-2.1.1.min.js"></script>
     <link href="dist/css/estilo.css" rel="stylesheet">
+
+    <script language="JavaScript">
+
+        $(document).ready(
+            function () {
+                $('.bt_carrega_conteudo').click(
+                    function() {
+                        var carregar_url = this.id;
+                        carregar_url =carregar_url+'_cad.php';
+                        $.ajax({
+                            url: carregar_url,
+                            success: function(data) {
+                                $('#div_conteudo').html(data);
+                            }
+                        })
+                    }
+                );
+                $('.bt_carrega_conteudo_tabela').click(
+                    function() {
+                        var carregar_url = this.id;
+                        carregar_url =carregar_url+'_listagem.php';
+                        $.ajax({
+                            url: carregar_url,
+                            success: function(data) {
+                                $('#div_listagem').html(data);
+                            }
+                        })
+                    }
+                );
+
+            }
+        );
+
+
+    </script>
+
 </head>
 
 <body>
@@ -38,36 +75,26 @@
      	<ul class="nav nav-justified">
         	<li class="active" >
             	<div>             
-        			<div><a class="btn btn-lg btn-success botaoTamanho" role="button" href="cadCliente.php">
+        			<div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Cliente">
                         Cliente</a></div>
-        			<div><a class="btn btn-lg btn-success botaoTamanho" href="cadFuncionario.php" role="button" >
+        			<div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Funcionario"/>
                         Funcionario</a></div>
-        			<div><a class="btn btn-lg btn-success botaoTamanho" href="cadProduto.php" role="button">
+        			<div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Produto"/>
                         Produto</a></div>
-        			<div><a class="btn btn-lg btn-success botaoTamanho" role="button" href="cadDisco.php">
+        			<div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Disco"/>
                         Disco</a></div>
-                    <div><a class="btn btn-lg btn-success botaoTamanho" role="button" href="cadBairro.php">
+                    <div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Bairro"/>
                         Bairro</a></div>
-                    <div><a class="btn btn-lg btn-success botaoTamanho" role="button" href="cadCidade.php">
+                    <div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="Cidade"/>
                         Cidade</a></div>
-                    <div><a class="btn btn-lg btn-success botaoTamanho" role="button" href="cadUf.php">
+                    <div><a class="btn btn-lg btn-success botaoTamanho bt_carrega_conteudo bt_carrega_conteudo_tabela" id="UF"/>
                         UF</a></div>
       			</div>
      		</li>
-        	<li class="active"> TABELA COM A LISTAGEM
-                <table border="1" width="120px" style="text-align: center">
-                    <tr>
-                        <td>UF</td>
-                        <td>Sigla</td>
-                        <td>BUTTON REMOVER</td>
-                        <td>BUTTON ALTERAR</td>
-                    </tr>
-                </table>
-            	<div id="listagem"></div>
+        	<li class="active">
+            	<div id="div_listagem"></div>
      		</li>
-            <li class="active">TELA DE CADASTRO
-                <div id="conteudo"></div>
-            </li>
+
      </ul>              
 	</div>
 
@@ -84,4 +111,5 @@
 
 </body>
 </html>
+
 
