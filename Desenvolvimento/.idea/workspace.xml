@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Bairro_listagem.php" description="&lt;?php" line="26" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="98aeb97c-7484-40e4-be87-e1e1f5d223a0" name="Default" comment="" />
+    <list default="true" id="8b98a53d-9a00-4ab8-9b3b-ef3bb3a02f14" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,73 +11,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/registrarCidade.php" />
-        <option value="$PROJECT_DIR$/Funcionario_cad.php" />
-        <option value="$PROJECT_DIR$/registrarFuncionario.php" />
-        <option value="$PROJECT_DIR$/registrarUF.php" />
-        <option value="$PROJECT_DIR$/registrarProduto.php" />
-        <option value="$PROJECT_DIR$/BairroAlterar.php" />
-        <option value="$PROJECT_DIR$/cadastrar.html" />
-        <option value="$PROJECT_DIR$/conexao/conexao.class.php" />
-        <option value="$PROJECT_DIR$/Bairro_cad.php" />
-        <option value="$PROJECT_DIR$/registrarBairro.php" />
-        <option value="$PROJECT_DIR$/DiscoAlterar.php" />
-        <option value="$PROJECT_DIR$/registrarDisco.php" />
-        <option value="$PROJECT_DIR$/Disco_cad.php" />
-        <option value="$PROJECT_DIR$/Cidade_cad.php" />
-        <option value="$PROJECT_DIR$/conexao/conexao.php" />
-        <option value="$PROJECT_DIR$/Bairro_listagem.php" />
-        <option value="$PROJECT_DIR$/UF_listagem.php" />
-        <option value="$PROJECT_DIR$/UF_deletar.php" />
-        <option value="$PROJECT_DIR$/UF_cadProc.php" />
-        <option value="$PROJECT_DIR$/UF_alterarProc.php" />
-        <option value="$PROJECT_DIR$/UF_alterar.php" />
-        <option value="$PROJECT_DIR$/Cidade_listagem.php" />
-        <option value="$PROJECT_DIR$/Cidade_deletar.php" />
-        <option value="$PROJECT_DIR$/Cidade_cadProc.php" />
-        <option value="$PROJECT_DIR$/Cidade_altProc.php" />
-        <option value="$PROJECT_DIR$/Cidade_alterar.php" />
-        <option value="$PROJECT_DIR$/conexao/comboboxDataSource.php" />
-        <option value="$PROJECT_DIR$/Bairro_deletar.php" />
-        <option value="$PROJECT_DIR$/Bairro_cadProc.php" />
-        <option value="$PROJECT_DIR$/Bairro_altProc.php" />
-        <option value="$PROJECT_DIR$/Bairro_alterar.php" />
-        <option value="$PROJECT_DIR$/Disco_listagem.php" />
-        <option value="$PROJECT_DIR$/Disco_deletar.php" />
-        <option value="$PROJECT_DIR$/Disco_cadProc.php" />
-        <option value="$PROJECT_DIR$/Disco_alterarProc.php" />
-        <option value="$PROJECT_DIR$/Disco_alterar.php" />
-        <option value="$PROJECT_DIR$/Produto_listagem.php" />
-        <option value="$PROJECT_DIR$/Produto_deletar.php" />
-        <option value="$PROJECT_DIR$/Produto_cadProc.php" />
-        <option value="$PROJECT_DIR$/Produto_alterarProc.php" />
-        <option value="$PROJECT_DIR$/Produto_alterar.php" />
-        <option value="$PROJECT_DIR$/Funcionario_listagem.php" />
-        <option value="$PROJECT_DIR$/Funcionario_deletar.php" />
-        <option value="$PROJECT_DIR$/Funcionario_alterarProc.php" />
-        <option value="$PROJECT_DIR$/Funcionario_cadProc.php" />
-        <option value="$PROJECT_DIR$/Funcionario_alterar.php" />
-        <option value="$PROJECT_DIR$/Cliente_listagem.php" />
-        <option value="$PROJECT_DIR$/Cliente_deletar.php" />
-        <option value="$PROJECT_DIR$/Cliente_cadProc.php" />
-        <option value="$PROJECT_DIR$/Cliente_altProc.php" />
-        <option value="$PROJECT_DIR$/Cliente_alterar.php" />
-      </list>
-    </option>
+    <leaf>
+      <file leaf-file-name="pedido.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pedido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -111,50 +63,26 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TCC - V2" />
+              <option name="myItemId" value="Desenvolvimento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TCC - V2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TCC - V2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TCC - V2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conexao" />
+              <option name="myItemId" value="Desenvolvimento" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\TCC - V2" />
-      <recent name="C:\wamp64\www\TCC - V2\conexao" />
-      <recent name="C:\wamp64\www\TESTES APLICACAO" />
-      <recent name="D:\Documentos\IFES - SI\TCC\TESTES APLICAÇÃO" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,12 +136,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -242,105 +164,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98aeb97c-7484-40e4-be87-e1e1f5d223a0" name="Default" comment="" />
-      <created>1493175564877</created>
+      <changelist id="8b98a53d-9a00-4ab8-9b3b-ef3bb3a02f14" name="Default" comment="" />
+      <created>1496274622841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1493175564877</updated>
-      <workItem from="1493175567022" duration="2414000" />
-      <workItem from="1493250687128" duration="6776000" />
-      <workItem from="1493259985439" duration="391000" />
-      <workItem from="1493260637807" duration="2782000" />
-      <workItem from="1493310007030" duration="186000" />
-      <workItem from="1493337501149" duration="3026000" />
-      <workItem from="1493341151788" duration="1288000" />
-      <workItem from="1493345346718" duration="830000" />
-      <workItem from="1493346538080" duration="960000" />
-      <workItem from="1493419433840" duration="139000" />
-      <workItem from="1493667264861" duration="2316000" />
-      <workItem from="1493744821086" duration="413000" />
-      <workItem from="1493836254662" duration="8187000" />
-      <workItem from="1493853788988" duration="601000" />
-      <workItem from="1493866991308" duration="1449000" />
-      <workItem from="1493915748135" duration="626000" />
-      <workItem from="1494260390220" duration="1645000" />
-      <workItem from="1494262813072" duration="1870000" />
-      <workItem from="1494271463214" duration="5563000" />
-      <workItem from="1494285059137" duration="8621000" />
-      <workItem from="1494332253779" duration="5706000" />
-      <workItem from="1494349964685" duration="234000" />
-      <workItem from="1494350720222" duration="55000" />
-      <workItem from="1494379083010" duration="7347000" />
-      <workItem from="1494872345370" duration="2327000" />
-      <workItem from="1494899610368" duration="274000" />
-      <workItem from="1494904847596" duration="98000" />
-      <workItem from="1494973260884" duration="12876000" />
-      <workItem from="1495044872436" duration="3919000" />
-      <workItem from="1495156015867" duration="80000" />
-      <workItem from="1495160280200" duration="4278000" />
-      <workItem from="1495241570561" duration="3907000" />
-      <workItem from="1495383926342" duration="568000" />
-      <workItem from="1495398708629" duration="10128000" />
-      <workItem from="1495476287491" duration="5127000" />
-      <workItem from="1495497273040" duration="152000" />
-      <workItem from="1495581491079" duration="3591000" />
-      <workItem from="1495585379212" duration="219000" />
-      <workItem from="1495592872220" duration="150000" />
-      <workItem from="1495650802130" duration="3723000" />
-      <workItem from="1495749185387" duration="270000" />
-      <workItem from="1495761189130" duration="8284000" />
-      <workItem from="1495842237023" duration="857000" />
-      <workItem from="1495922285336" duration="468000" />
-      <workItem from="1495922765623" duration="4009000" />
-      <workItem from="1495973592873" duration="19782000" />
-      <workItem from="1496100314988" duration="570000" />
-      <workItem from="1496102065241" duration="2899000" />
+      <updated>1496274622841</updated>
+      <workItem from="1496274625309" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151981000" />
+    <option name="totallyTimeSpent" value="80000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -349,452 +205,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cadFuncionario.php" />
-    <entry file="file://$PROJECT_DIR$/cadProduto.php" />
-    <entry file="file://$PROJECT_DIR$/cadUF.php" />
-    <entry file="file://$PROJECT_DIR$/resultado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/relatorio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadBairro.php" />
     <entry file="file://$PROJECT_DIR$/pedido.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="38" column="111" lean-forward="false" selection-start-line="38" selection-start-column="111" selection-end-line="38" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deletarCliente.php" />
-    <entry file="file://$PROJECT_DIR$/BairroAlterar.php" />
-    <entry file="file://$PROJECT_DIR$/dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="4" column="45565" lean-forward="false" selection-start-line="4" selection-start-column="45565" selection-end-line="4" selection-end-column="45565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadastrar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_cad.php" />
-    <entry file="file://$PROJECT_DIR$/Bairro_cad.php" />
-    <entry file="file://$PROJECT_DIR$/conexao/conexao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UF_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <marker date="1496102409856" expanded="true" signature="719:880" ph="SELECT `sigl... uf" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UF_alterarProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1496102409793" expanded="true" signature="118:193" ph="UPDATE `uf` " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UF_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <marker date="1496102409958" expanded="true" signature="118:189" ph="INSERT INTO uf... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UF_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <marker date="1496102409903" expanded="true" signature="112:152" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UF_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="58" column="67" lean-forward="false" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
-          <folding>
-            <marker date="1496102362254" expanded="true" signature="857:887" ph="SELECT sigla... uf" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cidade_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <marker date="1496102635714" expanded="true" signature="768:798" ph="SELECT sigla... uf" />
-            <marker date="1496102635714" expanded="true" signature="830:1101" ph="SELECT c.cod... cidade" />
-            <marker date="1496102635714" expanded="true" signature="830:1102" ph="SELECT c.cod... cidade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cidade_altProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <marker date="1496102635755" expanded="true" signature="148:257" ph="UPDATE `cida... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cidade_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <marker date="1496102635795" expanded="true" signature="116:190" ph="INSERT INTO cidade... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cidade_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <marker date="1496102635865" expanded="true" signature="112:149" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cidade_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
-          <folding>
-            <marker date="1496102541869" expanded="true" signature="825:1036" ph="SELECT c.cod... cidade" />
-            <marker date="1496102541869" expanded="true" signature="825:1037" ph="SELECT c.cod... cidade" />
-            <marker date="1496102541869" expanded="true" signature="2207:2237" ph="SELECT sigla... uf" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/comboboxDataSource.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="115" lean-forward="false" selection-start-line="36" selection-start-column="115" selection-end-line="36" selection-end-column="115" />
-          <folding>
-            <marker date="1496102785765" expanded="true" signature="237:283" ph="Select sigla... uf" />
-            <marker date="1496102785765" expanded="true" signature="697:772" ph="Select cod_c... cidade" />
-            <marker date="1496102785765" expanded="true" signature="697:778" ph="Select codCi... cidade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bairro_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <marker date="1496102909818" expanded="true" signature="775:1213" ph="SELECT b.cod... bairro" />
-            <marker date="1496102909818" expanded="true" signature="775:1214" ph="SELECT b.cod... bairro" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bairro_altProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <marker date="1496102829318" expanded="true" signature="143:252" ph="UPDATE `bair... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bairro_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <marker date="1496102816576" expanded="true" signature="129:214" ph="INSERT INTO bairro... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bairro_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <marker date="1496102805990" expanded="true" signature="112:153" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bairro_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
-          <folding>
-            <marker date="1496102314369" expanded="true" signature="841:1055" ph="SELECT b.cod... bairro" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1496102990545" expanded="true" signature="231:390" ph="INSERT INTO disco... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1496102990467" expanded="true" signature="112:151" ph="DELETE FROM " />
-            <marker date="1496102990467" expanded="true" signature="112:156" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="97" column="19" lean-forward="true" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
-          <folding>
-            <marker date="1496102976118" expanded="true" signature="855:888" ph="SELECT cod_d... disco" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_alterarProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <marker date="1496103013574" expanded="true" signature="231:394" ph="UPDATE disco... " />
-            <marker date="1496103013574" expanded="true" signature="231:406" ph="UPDATE disco... " />
-            <marker date="1496103013574" expanded="true" signature="231:422" ph="UPDATE disco... " />
-            <marker date="1496103013574" expanded="true" signature="231:435" ph="UPDATE disco... " />
-            <marker date="1496103013574" expanded="true" signature="231:436" ph="UPDATE disco... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disco_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="56" column="115" lean-forward="false" selection-start-line="56" selection-start-column="115" selection-end-line="56" selection-end-column="115" />
-          <folding>
-            <marker date="1496103013531" expanded="true" signature="786:975" ph="SELECT cod_d... disco" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Produto_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <marker date="1496103411020" expanded="true" signature="758:948" ph="SELECT `codP... produto" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Produto_alterarProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <marker date="1496103410927" expanded="true" signature="171:375" ph="UPDATE `prod... " />
-            <marker date="1496103410927" expanded="true" signature="171:426" ph="UPDATE `prod... " />
-            <marker date="1496103410927" expanded="true" signature="177:375" ph="INSERT INTO produto... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Produto_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <marker date="1496103410841" expanded="true" signature="149:244" ph="INSERT INTO produto... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Produto_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <marker date="1496103410970" expanded="true" signature="113:161" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Produto_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="54" column="70" lean-forward="false" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-          <folding>
-            <marker date="1496103348040" expanded="true" signature="874:910" ph="SELECT codPr... produto" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcionario_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <marker date="1496103748583" expanded="true" signature="776:812" ph="SELECT cod_b... bairro" />
-            <marker date="1496103748583" expanded="true" signature="846:1007" ph="SELECT cod_f... cliente" />
-            <marker date="1496103748583" expanded="true" signature="846:1051" ph="SELECT cod_f... cliente" />
-            <marker date="1496103748583" expanded="true" signature="846:1052" ph="SELECT `cod_... funcionario" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcionario_alterarProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1496103644282" expanded="true" signature="350:624" ph="UPDATE funci... " />
-            <marker date="1496103644282" expanded="true" signature="350:704" ph="UPDATE `func... " />
-            <marker date="1496103644282" expanded="true" signature="357:624" ph="INSERT INTO funcionario... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcionario_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1496103687308" expanded="true" signature="328:526" ph="INSERT INTO funcionario... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcionario_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <marker date="1496103589868" expanded="true" signature="113:160" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Funcionario_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="98" column="103" lean-forward="false" selection-start-line="98" selection-start-column="103" selection-end-line="98" selection-end-column="103" />
-          <folding>
-            <marker date="1496103581866" expanded="true" signature="826:870" ph="SELECT cod_f... funcionario" />
-            <marker date="1496103581866" expanded="true" signature="2089:2125" ph="SELECT cod_b... bairro" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente_alterar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-          <folding>
-            <marker date="1496104365606" expanded="true" signature="774:810" ph="SELECT cod_b... bairro" />
-            <marker date="1496104365606" expanded="true" signature="844:918" ph="SELECT cod_c... cliente" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente_altProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1496104066640" expanded="true" signature="289:670" ph="UPDATE clien... " />
-            <marker date="1496104066640" expanded="true" signature="289:671" ph="UPDATE clien... " />
-            <marker date="1496104066640" expanded="true" signature="289:702" ph="UPDATE clien... " />
-            <marker date="1496104066640" expanded="true" signature="295:670" ph="INSERT INTO cliente... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente_cadProc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1496103996175" expanded="true" signature="267:425" ph="INSERT INTO cliente... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente_deletar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <marker date="1496103952649" expanded="true" signature="111:150" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cliente_listagem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="128" column="25" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
-          <folding>
-            <marker date="1496103952611" expanded="true" signature="827:863" ph="SELECT cod_c... cliente" />
-            <marker date="1496103952611" expanded="true" signature="2014:2050" ph="SELECT cod_b... bairro" />
-          </folding>
         </state>
       </provider>
     </entry>

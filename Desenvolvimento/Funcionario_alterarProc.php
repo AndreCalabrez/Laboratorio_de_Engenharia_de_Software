@@ -9,7 +9,7 @@
     $telefone = $_GET['telefone'];
     $cpf = $_GET['cpf'];
     $login = $_GET['login'];
-    $senha = $_GET['senha'];
+    $senha = md5($_GET['senha']);
     $funcao = $_GET['funcao'];
 
     $sql= "UPDATE  `funcionario` SET  `nome`='$nome', `rua` = '$rua', `numero` = '$numero', `telefone` = '$telefone', 

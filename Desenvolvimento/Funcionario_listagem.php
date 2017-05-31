@@ -71,7 +71,7 @@
             $query_bairro = mysqli_query($con,"SELECT codBairro, bairro FROM bairro;");
 
             ?>
-            <form action="Funcionario_cadProc.php" method="get">
+            <form action="Funcionario_cadProc.php" method="POST">
                 <table>
                     <tr>
                         <td class="tabelaCadastro"><label>Codigo: </label></td>
