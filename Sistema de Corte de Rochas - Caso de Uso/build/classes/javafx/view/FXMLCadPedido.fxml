@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.mascara.util.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controller.FXMLCadPedidoController">
+    <children>
+        <TabPane prefHeight="275.0" prefWidth="685.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Pedido">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="348.0" prefWidth="685.0">
+                            <children>
+                                <Button fx:id="btBuscaCliente" layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onAction="#handleBuscaCliente" prefHeight="18.0" prefWidth="67.0" text="Cliente" />
+                                <Label layoutX="8.0" layoutY="31.0" text="Cliente">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="tfNomeCliente" editable="false" layoutX="5.0" layoutY="45.0" prefHeight="25.0" prefWidth="411.0" />
+                                <Label layoutX="427.0" layoutY="30.0" text="CNPJ / CPF">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="tfCNPJ" editable="false" layoutX="424.0" layoutY="45.0" prefHeight="25.0" prefWidth="144.0" />
+                                <Label layoutX="8.0" layoutY="70.0" text="Endereço">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="tfEndereco" editable="false" layoutX="5.0" layoutY="84.0" prefHeight="25.0" prefWidth="326.0" />
+                                <Label layoutX="338.0" layoutY="71.0" text="Numero">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="423.0" layoutY="70.0" text="Bairro">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="8.0" layoutY="111.0" text="Cidade">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="218.0" layoutY="111.0" text="UF">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="580.0" layoutY="27.0" text="Telefone">
+                                    <font>
+                                        <Font size="10.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="tfNumero" editable="false" layoutX="335.0" layoutY="84.0" prefHeight="25.0" prefWidth="80.0" />
+                                <TextField fx:id="tfBairro" editable="false" layoutX="420.0" layoutY="84.0" prefHeight="25.0" prefWidth="257.0" />
+                                <TextField fx:id="tfCidade" editable="false" layoutX="5.0" layoutY="124.0" prefHeight="25.0" prefWidth="208.0" />
+                                <TextField fx:id="tfUF" editable="false" layoutX="215.0" layoutY="124.0" prefHeight="25.0" prefWidth="31.0" />
+                                <TextField fx:id="tfTelefone" editable="false" layoutX="577.0" layoutY="40.0" prefHeight="25.0" prefWidth="103.0" />
+                                <Label layoutX="530.0" layoutY="8.0" text="Numero:" />
+                                <Label fx:id="lbCodigo" layoutX="578.0" layoutY="8.0" text="numero" />
+                                <Label layoutX="316.0" layoutY="9.0" text="Status:" />
+                                <ComboBox fx:id="cbStatus" layoutX="357.0" layoutY="5.0" prefHeight="25.0" prefWidth="171.0" />
+                                <Line endX="100.0" layoutX="101.0" layoutY="163.0" startX="-100.0" />
+                                <Label layoutX="10.0" layoutY="171.0" text="Disco" />
+                                <ComboBox fx:id="cbDisco" layoutX="10.0" layoutY="188.0" prefHeight="25.0" prefWidth="239.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Produto">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="473.0" prefWidth="674.0">
+                            <children>
+                                <ComboBox fx:id="cbProduto" layoutX="62.0" layoutY="18.0" prefHeight="25.0" prefWidth="187.0" />
+                                <MaskTextField fx:id="tfQtdP" layoutX="331.0" layoutY="18.0" prefWidth="110.0" promptText="XXX"/>
+                                <MaskTextField fx:id="tfLarguraP" layoutX="62.0" layoutY="50.0" prefWidth="110.0" promptText="X.XX"/>
+                                <MaskTextField fx:id="tfAlturaP" layoutX="331.0" layoutY="50.0" prefWidth="110.0" promptText="X.XX"/>
+                                <Button fx:id="btCadChapa" layoutX="490.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleAddProduto" text="Adicionar" />
+                                <Button fx:id="btExChapa" layoutX="490.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleEXProduto" prefHeight="25.0" prefWidth="66.0" text="Excluir" />
+                                <TableView fx:id="tableViewProdutos" layoutX="14.0" layoutY="91.0" prefHeight="104.0" prefWidth="643.0">
+                                    <columns>
+                                        <TableColumn fx:id="tableColumnQtdChapas" prefWidth="74.0" text="Qtd. Chapas" />
+                                        <TableColumn fx:id="tableColumnProduto" prefWidth="334.0" text="Produto" />
+                                        <TableColumn fx:id="tableColumnLarguraP" prefWidth="119.0" text="Largura" />
+                                        <TableColumn fx:id="tableColumnAlturaP" prefWidth="115.0" text="Altura" />
+                                    </columns>
+                                </TableView>                                                              
+                                
+                                <Label layoutX="11.0" layoutY="54.0" text="Largura" />
+                                <Label layoutX="260.0" layoutY="22.0" text="Quantidade" />
+                                <Label layoutX="14.0" layoutY="22.0" text="Nome" />                                
+                                <Label layoutX="283.0" layoutY="54.0" text="Altura" />                                                     
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Itens">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="473.0" prefWidth="674.0">
+                            <children>
+                                <TextField fx:id="tfNomeItem" layoutX="62.0" layoutY="18.0" prefHeight="25.0" prefWidth="185.0" />
+                                <MaskTextField fx:id="tfQtd" layoutX="331.0" layoutY="18.0" prefWidth="110.0" promptText="XXX"/>
+                                <MaskTextField fx:id="tfLargura" layoutX="62.0" layoutY="50.0" prefWidth="110.0" promptText="X.XX" />
+                                <MaskTextField fx:id="tfAltura" layoutX="331.0" layoutY="50.0" prefWidth="110.0" promptText="X.XX"/>
+                                <Button fx:id="btCadItens" layoutX="490.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleAddItem" text="Adicionar" />
+                                <TableView fx:id="tableViewItens" layoutX="13.0" layoutY="91.0" prefHeight="104.0" prefWidth="643.0">
+                                    <columns>
+                                        <TableColumn fx:id="tableColumnNome" prefWidth="219.0" text="Nome" />
+                                        <TableColumn fx:id="tableColumnQtdItens" prefWidth="152.0" text="Quantidade" />
+                                        <TableColumn fx:id="tableColumnLargura" prefWidth="129.0" text="Largura" />
+                                        <TableColumn fx:id="tableColumnAltura" prefWidth="142.0" text="Altura" />
+                                    </columns>
+                                </TableView>
+                                <Button fx:id="btGerar" layoutX="503.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleButtonConfirmar" prefHeight="25.0" prefWidth="74.0" text="GRAVAR" />
+                                <Button fx:id="btCancelar" layoutX="593.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleButtonCancelar" prefHeight="25.0" prefWidth="76.0" text="CANCELAR" />
+                                <Label layoutX="11.0" layoutY="54.0" text="Largura" />
+                                <Label layoutX="260.0" layoutY="22.0" text="Quantidade" />
+                                <Label layoutX="14.0" layoutY="22.0" text="Nome" />
+                                
+                                
+                                <Label layoutX="283.0" layoutY="54.0" text="Altura" />
+                                <Button fx:id="btExItens" layoutX="491.0" layoutY="50.0" mnemonicParsing="false" onAction="#handleEXItem" prefHeight="25.0" prefWidth="66.0" text="Excluir" />
+                               
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

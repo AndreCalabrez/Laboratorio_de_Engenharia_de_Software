@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controller.FXMLListagemPedidosController">
+   <children>
+      <TableView fx:id="ListPedido" layoutX="14.0" layoutY="55.0" prefHeight="307.0" prefWidth="675.0">
+        <columns>
+          <TableColumn fx:id="columCodigo" prefWidth="88.0" text="Codigo" />
+          <TableColumn fx:id="columNome" prefWidth="456.0" text="Cliente" />
+            <TableColumn fx:id="columPerda" prefWidth="130.0" text="Perda M²" />
+        </columns>
+      </TableView>
+      <Button fx:id="btVisualizar" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="107.0" text="Visualizar Pedido" />
+   </children>
+</AnchorPane>

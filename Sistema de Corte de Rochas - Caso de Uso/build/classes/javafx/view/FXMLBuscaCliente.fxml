@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controller.FXMLBuscaClienteController">
+   <children>
+      <Label fx:id="labelTitulo" layoutX="191.0" layoutY="14.0" text="Cliente">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfBusca" layoutX="17.0" layoutY="52.0" prefHeight="25.0" prefWidth="355.0" />
+      <Button fx:id="btBusca" layoutX="381.0" layoutY="52.0" mnemonicParsing="false" onAction="#carregarListFiltro" styleClass="busca" text="Buscar" />      
+      <ListView fx:id="lvCliente" layoutX="14.0" layoutY="83.0" prefHeight="256.0" prefWidth="427.0" />
+      <Button fx:id="btSelecionar" layoutX="205.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonConfirmar" text="SELECIONAR" />      
+   </children>
+</AnchorPane>
